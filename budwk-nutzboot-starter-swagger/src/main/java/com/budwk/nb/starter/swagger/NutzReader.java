@@ -63,7 +63,6 @@ import java.util.*;
 
 /**
  * @author wizzer(wizzer.cn)
- * @date 2020/2/18
  */
 public class NutzReader implements OpenApiReader {
     private static final Logger LOGGER = LoggerFactory.getLogger(NutzReader.class);

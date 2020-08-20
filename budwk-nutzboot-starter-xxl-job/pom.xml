@@ -9,8 +9,8 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <packaging>jar</packaging>
+    <name>budwk-nutzboot-starter-xxl-job</name>
     <artifactId>budwk-nutzboot-starter-xxl-job</artifactId>
-
     <dependencies>
         <dependency>
             <groupId>org.nutz</groupId>
@@ -30,4 +30,5 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+
 </project>

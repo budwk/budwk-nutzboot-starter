@@ -1,4 +1,4 @@
-package com.budwk.nb.starter.swagger3;
+package com.budwk.nb.starter.swagger;
 
 import com.fasterxml.jackson.annotation.JsonView;
 import io.swagger.v3.core.util.ParameterProcessor;
@@ -19,7 +19,6 @@ import java.util.*;
 
 /**
  * @author wizzer(wizzer.cn)
- * @date 2020/2/18
  */
 public class NutzReaderUtils {
     private static final String GET_METHOD = "get";
@@ -34,7 +33,7 @@ public class NutzReaderUtils {
      * Collects constructor-level parameters from class.
      *
      * @param cls        is a class for collecting
-     * @param components
+     * @param components components
      * @return the collection of supported parameters
      */
     public static List<Parameter> collectConstructorParameters(Class<?> cls, Components components, javax.ws.rs.Consumes classConsumes, JsonView jsonViewAnnotation) {

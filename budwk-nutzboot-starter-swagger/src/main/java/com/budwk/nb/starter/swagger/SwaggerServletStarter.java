@@ -46,7 +46,6 @@ import java.util.*;
 
 /**
  * @author wizzer(wizzer.cn)
- * @date 2020/2/10
  */
 @IocBean
 public class SwaggerServletStarter extends OpenApiServlet implements WebServletFace {

@@ -4,7 +4,6 @@ import io.swagger.v3.oas.models.OpenAPI;
 
 /**
  * @author wizzer(wizzer.cn)
- * @date 2020/2/18
  */
 public interface NutzReaderListener {
     /**

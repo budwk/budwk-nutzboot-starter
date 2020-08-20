@@ -4,7 +4,6 @@ import java.lang.annotation.*;
 
 /**
  * @author wizzer(wizzer.cn)
- * @date 2020/2/17
  */
 @Target({ElementType.METHOD, ElementType.ANNOTATION_TYPE})
 @Retention(RetentionPolicy.RUNTIME)

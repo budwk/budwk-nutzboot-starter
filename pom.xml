@@ -11,7 +11,7 @@
         <module>budwk-nutzboot-starter-xxl-job</module>
     </modules>
     <packaging>pom</packaging>
-    <name>budwk-nutzboot-starter</name>
+
     <properties>
         <nutzboot.version>2.4.0.v20200427</nutzboot.version>
         <nutz.version>1.r.68.v20200309</nutz.version>
@@ -20,6 +20,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <name>budwk-nutzboot-starter</name>
     <url>https://budwk.com</url>
     <description>starter of budwk</description>
     <issueManagement>
@@ -45,17 +46,7 @@
         <developerConnection>scm:git:git://github.com/budwk/budwk-nutzboot-starter.git</developerConnection>
         <url>git://github.com/budwk/budwk-nutzboot-starter.git</url>
     </scm>
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>org.nutz</groupId>
-                <artifactId>nutzboot-parent</artifactId>
-                <version>${nutzboot.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
+
     <build>
         <plugins>
             <plugin>
@@ -134,11 +125,11 @@
     </repositories>
     <distributionManagement>
         <snapshotRepository>
-            <id>nutz-snapshots</id>
+            <id>nutzcn-snapshots</id>
             <url>https://jfrog.nutz.cn/artifactory/snapshots/</url>
         </snapshotRepository>
         <repository>
-            <id>sonatype-release-staging</id>
+            <id>budwk-release</id>
             <name>Sonatype Nexus release repository</name>
             <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
         </repository>

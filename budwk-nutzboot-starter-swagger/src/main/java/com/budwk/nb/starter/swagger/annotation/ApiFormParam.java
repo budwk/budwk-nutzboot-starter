@@ -4,7 +4,6 @@ import java.lang.annotation.*;
 
 /**
  * @author wizzer(wizzer.cn)
- * @date 2020/2/16
  */
 @Target(ElementType.PARAMETER)
 @Inherited
