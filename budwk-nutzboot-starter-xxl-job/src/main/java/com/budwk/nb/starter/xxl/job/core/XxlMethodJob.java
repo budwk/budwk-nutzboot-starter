@@ -1,4 +1,4 @@
-package com.budwk.nb.starter.xxl.job.annotions;
+package com.budwk.nb.starter.xxl.job.core;
 
 import com.xxl.job.core.handler.annotation.XxlJob;
 

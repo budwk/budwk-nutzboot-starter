@@ -1,6 +1,6 @@
 package com.budwk.nb.starter.xxl.job.test;
 
-import com.budwk.nb.starter.xxl.job.annotions.XxlMethodJob;
+import com.budwk.nb.starter.xxl.job.core.XxlMethodJob;
 import com.xxl.job.core.handler.annotation.XxlJob;
 
 @XxlMethodJob
