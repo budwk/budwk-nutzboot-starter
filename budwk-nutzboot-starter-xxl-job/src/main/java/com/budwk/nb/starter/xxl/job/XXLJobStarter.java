@@ -58,7 +58,7 @@ public class XXLJobStarter implements ServerFace {
     private void initExecutor() {
         xxlJobNutzBootExecutor = new XxlJobNutzBootExecutor(ioc);
         xxlJobNutzBootExecutor.setAdminAddresses(conf.get(ADMIN_ADDRESS));
-        xxlJobNutzBootExecutor.setAppName(conf.get(EXECUTOR_APP_NAME,conf.get("nutz.application.name")));
+        xxlJobNutzBootExecutor.setAppname(conf.get(EXECUTOR_APP_NAME,conf.get("nutz.application.name")));
         xxlJobNutzBootExecutor.setIp(conf.get(EXECUTOR_IP));
         xxlJobNutzBootExecutor.setPort(conf.getInt(EXECUTOR_PORT));
         xxlJobNutzBootExecutor.setAccessToken(conf.get(ACCESS_TOKEN));
