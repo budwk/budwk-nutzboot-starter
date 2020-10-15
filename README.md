@@ -11,4 +11,6 @@ BudWk starter类包
 | budwk-nutzboot-starter-xxl-job | XXL-JOB 分布式任务调度平台 |[muyiluop](https://github.com/muyiluop) |
 
 
-* 部署命令 ```mvn clean package source:jar javadoc:jar gpg:sign deploy -Dgpg.passphrase=***```
+* 发布到maven中央仓库命令 
+
+```mvn clean package source:jar javadoc:jar gpg:sign deploy -Dgpg.passphrase=***```

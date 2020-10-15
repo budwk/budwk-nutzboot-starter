@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.budwk.nb</groupId>
     <artifactId>budwk-nutzboot-starter</artifactId>
-    <version>6.1.1</version>
+    <version>6.1.2</version>
     <modules>
         <module>budwk-nutzboot-starter-swagger</module>
         <module>budwk-nutzboot-starter-xxl-job</module>
@@ -13,8 +13,8 @@
     <packaging>pom</packaging>
 
     <properties>
-        <nutzboot.version>2.4.0.v20200427</nutzboot.version>
-        <nutz.version>1.r.68.v20200309</nutz.version>
+        <nutzboot.version>2.4.1.v20201014</nutzboot.version>
+        <nutz.version>1.r.68.v20201011</nutz.version>
         <swagger.version>2.1.1</swagger.version>
         <xxl-job.version>2.2.0</xxl-job.version>
         <jupiter.version>5.6.2</jupiter.version>
